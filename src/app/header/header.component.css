@@ -1,0 +1,25 @@
+.navbar-expand-lg{
+    background:#BB0000;
+}
+.navbar-brand{
+    color:white;
+}
+.navbar-brand img{
+    height: 50px;
+}
+  .navbar-brand h1 {
+      margin-left: 26em;
+    text-align: center;
+   
+    max-width: 600px;
+   
+    
+  }
+@media (max-width: 600px) {
+  .navbar-brand h1 {
+    margin-left: 24px;
+   
+    margin: 0 auto;
+    max-width: 600px;
+  }
+}

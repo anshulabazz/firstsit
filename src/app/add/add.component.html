@@ -1,0 +1,21 @@
+<form>
+  <div class="form-group">
+    <label for="inputAddress2">Title</label>
+    <input type="text" class="form-control" id="title" #title placeholder="title">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Textarea</label>
+    <textarea class="form-control" id="textarea" #textarea rows="5"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">file input</label>
+    <input type="file" (change)="upload($event)" accept="*.png.jpg" class="form-control-file" #image id="File">
+  </div>
+
+</form>
+<button style="background-color:antiquewhite" mat-raised-button (click)="submit(title.value,textarea.value)">Published</button>
+<button style="background-color:antiquewhite" mat-raised-button (click)="submitimg(image.value)">Image published</button>
+
+<img src="https://firebasestorage.googleapis.com/v0/b/dream11-3d9fe.appspot.com/o/2015234mm%2C..rH7UFbvE.jpg?alt=media&token=e5aff58f-7623-4269-b47c-2c28275d7902" />
+
+
