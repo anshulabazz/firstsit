@@ -1,0 +1,84 @@
+<app-header></app-header>
+<div class="container">
+  <div class="row">
+
+<mat-card class="example-card" *ngFor="let data of datacome" (click)="match()">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    
+  </mat-card-header>
+  <img mat-card-image src={{data.title.image1}}>
+  <mat-card-content>
+    <p>
+      {{data.title.title}}
+    </p>
+  </mat-card-content>
+
+</mat-card>
+<mat-card class="example-card" *ngFor="let data1 of datacome1" (click)="match1()">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+
+  </mat-card-header>
+  <img mat-card-image src={{data1.title.image1}}>
+  <mat-card-content>
+    <p>
+      {{data1.title.title}}
+    </p>
+  </mat-card-content>
+
+</mat-card>
+<mat-card class="example-card" *ngFor="let data2 of datacome2" (click)="match2()">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+
+  </mat-card-header>
+  <img mat-card-image src={{data2.title.image1}}>
+  <mat-card-content>
+    <p>
+      {{data2.title.title}}
+    </p>
+  </mat-card-content>
+
+</mat-card>
+<mat-card class="example-card" *ngFor="let data3 of datacome3" (click)="match3()">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+
+  </mat-card-header>
+  <img mat-card-image src={{data3.title.image1}}>
+  <mat-card-content>
+    <p>
+      {{data3.title.title}}
+    </p>
+  </mat-card-content>
+
+</mat-card>
+<mat-card class="example-card" *ngFor="let data4 of datacome4" (click)="match4()">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+
+  </mat-card-header>
+  <img mat-card-image src={{data4.title.image1}}>
+  <mat-card-content>
+    <p>
+      {{data4.title.title}}
+    </p>
+  </mat-card-content>
+
+</mat-card>
+<mat-card class="example-card" *ngFor="let data5 of datacome5" (click)="match5()">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+
+  </mat-card-header>
+  <img mat-card-image src={{data5.title.image1}}>
+  <mat-card-content>
+    <p>
+      {{data5.title.title}}
+    </p>
+  </mat-card-content>
+
+</mat-card>
+    </div>
+</div>

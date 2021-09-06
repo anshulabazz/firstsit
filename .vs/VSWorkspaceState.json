@@ -5,8 +5,8 @@
     "\\src\\app",
     "\\src\\app\\add",
     "\\src\\app\\additem",
-    "\\src\\app\\home"
+    "\\src\\app\\login"
   ],
-  "SelectedNode": "\\src\\app\\add\\add.component.ts",
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }

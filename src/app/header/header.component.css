@@ -1,6 +1,9 @@
 .navbar-expand-lg{
     background:#BB0000;
 }
+.navbar{
+    background:white;
+}
 .navbar-brand{
     color:white;
 }
@@ -15,11 +18,28 @@
    
     
   }
+.list li {
+  list-style: none;
+  display: inline-flex;
+  padding-right: 9px;
+  padding:30px;
+  font-size: 30px;
+ 
+}
+.start {
+    margin-top:-1em;
+  color: grey;
+  font-size: 17px;
+  
+}
+
 @media (max-width: 600px) {
   .navbar-brand h1 {
-    margin-left: 24px;
-   
-    margin: 0 auto;
+    margin-left: 50px;
+  
     max-width: 600px;
+  }
+  .start{
+      margin-left: -1em;
   }
 }

@@ -1,5 +1,13 @@
 <form>
   <div class="form-group">
+    <label for="exampleFormControlFile1">file input</label>
+    <input type="file" (change)="upload($event)" accept="*.png.jpg" class="form-control-file" #image id="File">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Image1</label>
+    <input type="text" class="form-control" id="image1" #image1 value="{{fb}}">
+  </div>
+  <div class="form-group">
     <label for="inputAddress2">Title</label>
     <input type="text" class="form-control" id="title" #title placeholder="title">
   </div>
@@ -8,14 +16,70 @@
     <textarea class="form-control" id="textarea" #textarea rows="5"></textarea>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlFile1">file input</label>
-    <input type="file" (change)="upload($event)" accept="*.png.jpg" class="form-control-file" #image id="File">
+    <label for="exampleFormControlTextarea1">Weather</label>
+    <textarea class="form-control" id="weather" #weather rows="5"></textarea>
   </div>
-
+  <div class="form-group">
+    <label for="inputAddress2">Pitch Report</label>
+    <input type="text" class="form-control" id="pitch" #pitch placeholder="pitch">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Player Playing in 1st Team</label>
+    <textarea class="form-control" id="playerplaying1" #playerplaying1 rows="5"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Player playing in 2nd Teeam</label>
+    <textarea class="form-control" id="playerplaying2" #playerplaying2 rows="5"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Top pick Player</label>
+    <textarea class="form-control" id="toppick" #toppick placeholder="top pick" rows="5"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">CaptainandVice</label>
+    <input type="text" class="form-control" id="captainandvice" #captainandvice placeholder="title">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Team 1 Choose</label>
+    <textarea class="form-control" id="team1" #team1 placeholder="Team 1" rows="5"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Team 2 Choose</label>
+    <textarea class="form-control" id="team2" #team2 placeholder="Team 2" rows="5"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Final Advice</label>
+    <input type="text" class="form-control" id="finaladvice" #finaladvice placeholder="Final Advice">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">file input</label>
+    <input type="file" (change)="upload1($event)" accept="*.png.jpg" class="form-control-file" id="File">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Image2</label>
+    <input type="text" class="form-control" id="image2" #image2 value="{{fb1}}">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">file input</label>
+    <input type="file" (change)="upload2($event)" accept="*.png.jpg" class="form-control-file" id="File">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Image3</label>
+    <input type="text" class="form-control" id="image3" #image3 value="{{fb2}}">
+  </div>
 </form>
-<button style="background-color:antiquewhite" mat-raised-button (click)="submit(title.value,textarea.value)">Published</button>
-<button style="background-color:antiquewhite" mat-raised-button (click)="submitimg(image.value)">Image published</button>
+<button style="background-color:antiquewhite" mat-raised-button (click)="submit(image1.value,title.value,textarea.value,weather.value,pitch.value,playerplaying1.value,playerplaying2.value,toppick.value,captainandvice.value,team1.value,team2.value,finaladvice.value,image2.value,image3.value)">Published</button>
 
-<img src="https://firebasestorage.googleapis.com/v0/b/dream11-3d9fe.appspot.com/o/2015234mm%2C..rH7UFbvE.jpg?alt=media&token=e5aff58f-7623-4269-b47c-2c28275d7902" />
+<button style="background-color:antiquewhite" mat-raised-button (click)="submit2(image1.value,title.value,textarea.value,weather.value,pitch.value,playerplaying1.value,playerplaying2.value,toppick.value,captainandvice.value,team1.value,team2.value,finaladvice.value,image2.value,image3.value)">Published2</button>
+
+<button style="background-color:antiquewhite" mat-raised-button (click)="submit3(image1.value,title.value,textarea.value,weather.value,pitch.value,playerplaying1.value,playerplaying2.value,toppick.value,captainandvice.value,team1.value,team2.value,finaladvice.value,image2.value,image3.value)">Published3</button>
+
+<button style="background-color:antiquewhite" mat-raised-button (click)="submit4(image1.value,title.value,textarea.value,weather.value,pitch.value,playerplaying1.value,playerplaying2.value,toppick.value,captainandvice.value,team1.value,team2.value,finaladvice.value,image2.value,image3.value)">Published4</button>
+
+<button style="background-color:antiquewhite" mat-raised-button (click)="submit5(image1.value,title.value,textarea.value,weather.value,pitch.value,playerplaying1.value,playerplaying2.value,toppick.value,captainandvice.value,team1.value,team2.value,finaladvice.value,image2.value,image3.value)">Published5</button>
+
+<button style="background-color:antiquewhite" mat-raised-button (click)="submit6(image1.value,title.value,textarea.value,weather.value,pitch.value,playerplaying1.value,playerplaying2.value,toppick.value,captainandvice.value,team1.value,team2.value,finaladvice.value,image2.value,image3.value)">Published6</button>
+
+<button style="background-color:antiquewhite" mat-raised-button (click)="off()">OFF </button>
 
 

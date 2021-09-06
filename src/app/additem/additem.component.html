@@ -5,8 +5,10 @@
     <div *ngFor="let data of datacome" class="card">
 
 
+
       <h2>{{data.title.title}}</h2>
-      <h2>{{data.title.textarea}}</h2>
+
+
       <div class="row">
         <div class="form-group">
           <div class="col-md-12">
@@ -15,28 +17,149 @@
           </div>
         </div>
       </div>
+
+
+
+
+      <button mat-raised-button (click)="updatematch(data.id,title.value)">Edit Match</button>
+      <button mat-raised-button (click)="deletematch(data.id)">Delete Match</button>
+    </div>
+   
+      
+
+   
+
+<div *ngFor="let data1 of datacome1" class="card">
+
+
+
+  <h2>{{data1.title.title}}</h2>
+
+
+  <div class="row">
+    <div class="form-group">
+      <div class="col-md-12">
+        <input type="text" #title class="form-control" value="{{data1.title.title}}" />
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <button mat-raised-button (click)="updatematch1(data1.id,title.value)">Edit Match</button>
+
+  <button mat-raised-button (click)="deletematch1(data1.id)">Delete Match</button>
+</div>
+
+
+    
+    <div *ngFor="let data2 of datacome2" class="card">
+
+
+
+      <h2>{{data2.title.title}}</h2>
+
+
+      
       <div class="row">
         <div class="form-group">
           <div class="col-md-12">
-            <input type="text" #textarea class="form-control" value="{{data.title.title}}" />
+            <input type="text" #title class="form-control" value="{{data2.title.title}}" />
 
           </div>
 
 
 
-            <button mat-raised-button (click)="updatematch(data.id,title.value,textarea.value)">Edit Match</button>
-          
+          <button mat-raised-button (click)="updatematch2(data2.id,title.value)">Edit Match</button>
+
         </div>
       </div>
-      <button mat-raised-button (click)="deletematch(data.id)">Delete Match</button>
+      <button mat-raised-button (click)="deletematch2(data2.id)">Delete Match</button>
+
+    </div>
+    <div *ngFor="let data3 of datacome3" class="card">
+
+
+
+      <h2>{{data3.title.title}}</h2>
+
+
+      
+      <div class="row">
+        <div class="form-group">
+          <div class="col-md-12">
+            <input type="text" #title class="form-control" value="{{data3.title.title}}" />
+
+          </div>
+
+
+
+          <button mat-raised-button (click)="updatematch3(data3.id,title.value)">Edit Match</button>
+
+        </div>
+      </div>
+      <button mat-raised-button (click)="deletematch3(data3.id)">Delete Match</button>
+
+    </div>
+    <div *ngFor="let data4 of datacome4" class="card">
+
+
+
+      <h2>{{data4.title.title}}</h2>
+
+
+      
+      <div class="row">
+        <div class="form-group">
+          <div class="col-md-12">
+            <input type="text" #title class="form-control" value="{{data4.title.title}}" />
+
+          </div>
+
+
+
+          <button mat-raised-button (click)="updatematch4(data4.id,title.value)">Edit Match</button>
+
+        </div>
+      </div>
+      <button mat-raised-button (click)="deletematch4(data4.id)">Delete Match</button>
+
     </div>
 
+    <div *ngFor="let data5 of datacome5" class="card">
 
 
 
-    <button mat-raised-button>Home</button>
+      <h2>{{data5.title.title}}</h2>
 
-    <button mat-raised-button>Logout</button>
+
+      
+      <div class="row">
+        <div class="form-group">
+          <div class="col-md-12">
+            <input type="text" #title class="form-control" value="{{data5.title.title}}" />
+
+          </div>
+
+
+
+          <button mat-raised-button (click)="updatematch5(data5.id,title.value)">Edit Match</button>
+
+        </div>
+      </div>
+      <button mat-raised-button (click)="deletematch5(data5.id)">Delete Match</button>
+
+    </div>
+
   </div>
 
+
+
+      <button mat-raised-button>Home</button>
+
+      <button mat-raised-button (click)="logout()">Logout</button>
     </div>
+
+    
