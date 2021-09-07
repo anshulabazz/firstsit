@@ -14,34 +14,27 @@
     <mat-divider></mat-divider>
     <p class="desc">{{data.title.textarea}}</p>
 
-    <h3 class="weathers">Weather:{{data.title.weather}}</h3>
-    <h3 class="weather">Pitch: {{data.title.pitch}}</h3>
-    <h4 class="weathers">Match Probable XI 1 {{data.title.playerplaying1}}</h4>
-    <h4 class="weathers">Match Probable XI 2 {{data.title.playerplaying2}}</h4>
-    <h4 class="weather">Top Pick:{{data.title.toppick}}</h4>
-    <h5 class="weather">Captain and Vice Captain:{{data.title.captainandvice}}</h5>
-    <h4 class="weather">Team 1: {{data.title.team1}}</h4>
-    <h4 class="weather">Team 2: {{data.title.team2}}</h4>
-    <h3 class="weathers">Final Advice: {{data.title.finaladvice}}</h3>
+    <h3 class="weathers"><span class="deco">Weather:</span>{{data.title.weather}}</h3>
+    <mat-divider></mat-divider>
+    <h3 class="weather"><span class="deco">Pitch: </span>{{data.title.pitch}}</h3>
+    <mat-divider></mat-divider>
+    <h4 class="weathers"><span class="deco">Match Probable XI 1 </span>{{data.title.playerplaying1}}</h4>
+    <mat-divider></mat-divider>
+    <h4 class="weathers"><span class="deco">Match Probable XI 2 </span>{{data.title.playerplaying2}}</h4>
+    <mat-divider></mat-divider>
+    <h4 class="weather"><span class="deco">Top Pick:</span>{{data.title.toppick}}</h4>
+    <mat-divider></mat-divider>
+    <h5 class="weather"><span class="deco">Captain and Vice Captain:</span>{{data.title.captainandvice}}</h5>
+    <mat-divider></mat-divider>
+    <h4 class="weather"><span class="deco">Team 1: </span>{{data.title.team1}}</h4>
+    <mat-divider></mat-divider>
+    <h4 class="weather"><span class="deco">Team 2: </span>{{data.title.team2}}</h4>
+    <mat-divider></mat-divider>
+    <h3 class="weathers"><span class="deco">Final Advice: </span>{{data.title.finaladvice}}</h3>
     <img class="imge" src="{{data.title.image2}}" />
     <img class="imge" src="{{data.title.image3}}" />
 
-    <section class="section">
-      <img class="footerimg" src="assets/images/cric11.png" />
-      <ul>
-        <li>Home</li>
-        <li>Follow us</li>
-        <li>Advertise with us</li>
-        <li>More Matches</li>
-
-        <li>Donate us</li>
-
-      </ul>
-      <mat-divider></mat-divider>
-      <h5>Copyright @Cricfancode -All right reserved</h5>
-      <div class="circle"></div>
-      <div class="circle2"></div>
-    </section>
+    <app-footer></app-footer>
 
   </div>
 </div>

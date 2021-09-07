@@ -1,0 +1,111 @@
+img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 0.7em;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.view {
+  margin-top: 5em;
+}
+
+.desc {
+  font-weight: 1;
+  margin-top: 1em;
+  font-size: 27px;
+  margin-right: 0.7em;
+}
+
+.weather {
+  margin-top: 1em;
+  font-size: 28px;
+  margin-right: 0.7em;
+}
+
+.weathers {
+  margin-top: 1em;
+  font-size: 28px;
+  margin-right: 0.7em;
+  font-weight: 100;
+}
+
+mat-divider {
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+.deco {
+  border: 1px solid grey;
+  background-color: #949499;
+  color: white;
+}
+
+
+
+
+
+@media(max-width:500px) {
+  img {
+    background-size: contain;
+    width: auto;
+  }
+
+  .title {
+    margin-right: 0.7em;
+    font-weight: bold;
+    font-size: 27px;
+  }
+
+
+
+  .desc {
+    margin-top: 1em;
+    font-size: 24px;
+    margin-right: 0.7em;
+    font-weight: 100;
+  }
+
+  .weather {
+    margin-top: 1em;
+    font-size: 24px;
+    margin-right: 0.7em;
+  }
+
+  .weathers {
+    margin-top: 1em;
+    font-size: 24px;
+    margin-right: 0.7em;
+    font-weight: 100;
+  }
+
+
+  mat-divider {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+
+
+  html {
+    overflow-x: hidden;
+  }
+}

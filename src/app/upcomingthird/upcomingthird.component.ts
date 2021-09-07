@@ -25,7 +25,7 @@ export class UpcomingthirdComponent implements OnInit {
         };
 
       })
-      console.log(this.datacome3);
+     
     })
   }
   }

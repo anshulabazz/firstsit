@@ -25,6 +25,7 @@ import { MainComponent } from './main/main.component';
 import { LoginComponent } from './login/login.component'
 import { FirebaseauthserviceService } from './firebaseauthservice.service';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MainComponent,
     LoginComponent,
     PagenotfoundComponent,
+    FooterComponent,
     
     
   ],

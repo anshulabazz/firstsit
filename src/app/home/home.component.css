@@ -37,29 +37,7 @@ img{
   margin-right: 0.7em;
   font-weight: 100;
 }
-.section {
-  box-sizing: border-box;
-  background-color: #181818;
-  height: 400px;
-  width:auto;
-  max-width:100%;
 
-}
-.section .footerimg{
-   height:50px;
-   width:50px;
-   margin-top:2em;
-   margin-left:2em;
-}
-  .section li {
-    list-style: none;
-    color: white;
-
-    
-    font-size: 19px;
-    padding: 4px;
-    margin-left: 3em;
-  }
 mat-divider {
   background-color: white;
   margin-left: 10px;
@@ -67,35 +45,20 @@ mat-divider {
   margin-top: 1px;
 }
 
-.section h5 {
-  color: white;
-  margin-left: 50em;
+
+
+
+
+
+
+
+
+.deco{
+    border: 1px solid grey;
+    background-color:#949499;
+    color:white;
+  
 }
-
-
-
-
-
-.section .circle {
-  margin-left: 85em;
-  margin-top: -16em;
-  width: 120px;
-  height: 120px;
-  background: #BB0000;
-  border-radius: 50%
-}
-
-.section .circle2 {
-  margin-left: 1em;
-  margin-top: 10em;
-  width: 60px;
-  height: 60px;
-  background: #BB0000;
-  border-radius: 50%
-}
-
-
-
 
 
 
@@ -135,10 +98,7 @@ mat-divider {
     margin-right: 0.7em;
     font-weight: 100;
   }
-  .section{
-      width:auto;
-      max-width:100%;
-  }
+  
   
   mat-divider {
     background-color: white;
@@ -147,46 +107,8 @@ mat-divider {
     
   }
   
-  .section .footerimg {
-    height: 50px;
-    width: 50px;
-    margin-top: 2em;
-    margin-left: 2em;
-  }
-
-  .section li {
-    list-style: none;
-    color: white;
-    font-size: 19px;
-    padding: 4px;
-    margin-left: 3em;
-  }
-
   
-
-  .section h5 {
-    color: white;
-    margin-left: 7em;
-  }
-
-
-  .section .circle {
-    margin-left: 17em;
-    margin-top: -16em;
-    width: 120px;
-    height: 120px;
-    background: #BB0000;
-    border-radius: 50%
-  }
-
-  .section .circle2 {
-    margin-left: 1em;
-    margin-top: 10em;
-    width: 60px;
-    height: 60px;
-    background: #BB0000;
-    border-radius: 50%
-  }
+  
 
   html{
       overflow-x:hidden;

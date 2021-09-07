@@ -26,7 +26,7 @@ export class UpcomingfifthComponent implements OnInit {
         };
 
       })
-      console.log(this.datacome5);
+     
     })
   }
 

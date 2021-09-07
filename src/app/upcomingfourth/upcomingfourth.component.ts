@@ -25,7 +25,7 @@ export class UpcomingfourthComponent implements OnInit {
         };
 
       })
-      console.log(this.datacome4);
+     
     })
   }
   }

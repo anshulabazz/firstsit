@@ -17,13 +17,13 @@ const routes: Routes = [
   
  
  
-  { path: 'upcomingfirst', component: UpcomingfirstComponent },
-  { path: 'upcomingsec', component: UpcomingsecComponent },
-  { path: 'upcomingthird', component: UpcomingthirdComponent },
-  { path: 'upcomingfourth', component: UpcomingfourthComponent },
-  { path: 'upcomingfifth', component: UpcomingfifthComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'login', component: LoginComponent},
+  { path: 'upcoming-first-match', component: UpcomingfirstComponent },
+  { path: 'upcoming-sec-match', component: UpcomingsecComponent },
+  { path: 'upcoming-third-match', component: UpcomingthirdComponent },
+  { path: 'upcoming-fourth-match', component: UpcomingfourthComponent },
+  { path: 'upcoming-fifth-match', component: UpcomingfifthComponent },
+  { path: 'match-upcoming', component: HomeComponent },
+  { path: 'login-user', component: LoginComponent},
   { path: '', component: MainComponent },
  
   { path: '**', component: PagenotfoundComponent }

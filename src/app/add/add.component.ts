@@ -105,13 +105,13 @@ export class AddComponent implements OnInit {
             if (url) {
               this.fb = url;
             }
-            console.log(this.fb);
+           
           });
         })
       )
       .subscribe(url => {
         if (url) {
-          console.log(url);
+        
         }
       });
   }
@@ -132,13 +132,13 @@ export class AddComponent implements OnInit {
             if (url) {
               this.fb1 = url;
             }
-            console.log(this.fb1);
+           
           });
         })
       )
       .subscribe(url => {
         if (url) {
-          console.log(url);
+         
         }
       });
   }
@@ -159,13 +159,13 @@ export class AddComponent implements OnInit {
             if (url) {
               this.fb2 = url;
             }
-            console.log(this.fb2);
+           
           });
         })
       )
       .subscribe(url => {
         if (url) {
-          console.log(url);
+          
         }
       });
 

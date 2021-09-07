@@ -23,7 +23,7 @@ export class UpcomingfirstComponent implements OnInit {
         };
 
       })
-      console.log(this.datacome1);
+     
     })
   }
 

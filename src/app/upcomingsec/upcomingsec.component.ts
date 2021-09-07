@@ -25,7 +25,7 @@ export class UpcomingsecComponent implements OnInit {
         };
 
       })
-      console.log(this.datacome2);
+     
     })
   }
   }

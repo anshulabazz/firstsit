@@ -114,23 +114,23 @@ export class MainComponent implements OnInit {
 
   }
   match() {
-    this.router.navigate(['home']);
+    this.router.navigate(['match-upcoming']);
   }
   match1() {
-    this.router.navigate(['upcomingfirst']);
+    this.router.navigate(['upcoming-first']);
   }
   match2() {
-    this.router.navigate(['upcomingsec']);
+    this.router.navigate(['upcoming-sec-match']);
   }
   match3() {
-    this.router.navigate(['upcomingthird']);
+    this.router.navigate(['upcoming-third-match']);
   }
   match4() {
-    this.router.navigate(['upcomingfourth']);
+    this.router.navigate(['upcoming-fourth-match']);
   }
   match5() {
     
-      this.router.navigate(['upcomingfifth']);
+      this.router.navigate(['upcoming-fifth-match']);
     
   }
 }

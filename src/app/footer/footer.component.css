@@ -1,18 +1,9 @@
-mat-card{
-    height:50%;
-    width:50%;
-    margin-top:1em;
-  
-}
-
-
 .site-footer {
   background-color: #26272b;
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
   color: #737373;
-
 }
 
   .site-footer hr {
@@ -43,19 +34,19 @@ mat-card{
 
 
 
-.site-footer .social-icons {
-  text-align: right
-}
-
-  .site-footer .social-icons a {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: 6px;
-    margin-right: 0;
-    border-radius: 100%;
-    background-color: #33353d
+  .site-footer .social-icons {
+    text-align: right
   }
+
+    .site-footer .social-icons a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin-left: 6px;
+      margin-right: 0;
+      border-radius: 100%;
+      background-color: #33353d
+    }
 
 .copyright-text {
   margin: 0
@@ -147,4 +138,3 @@ mat-card{
     font-weight: 600
   }
 }
-
